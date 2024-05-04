@@ -7,6 +7,10 @@ const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 });
 
+export const metadata = {
+  title: "Int+",
+  description: "Your Trusted IT Partner",
+};
 
 export default function RootLayout({ children }) {
   return (

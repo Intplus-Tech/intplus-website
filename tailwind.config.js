@@ -12,6 +12,9 @@ module.exports = {
         "solutionsBackground" : "url('/solutions.svg')",
         "contactpromoBackground" : "url('/contactpromo.svg')",
       },
+      fontFamily:{
+        calistoga : ['var(--font-calistoga)']
+      }
     },
   },
   plugins: [],
