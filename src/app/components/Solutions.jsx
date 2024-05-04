@@ -2,7 +2,7 @@ import React from 'react'
 
 const Solutions = () => {
   return (
-    <div>Solutions</div>
+    <div className='bg-solutionsBackground'>Solutions</div>
   )
 }
 

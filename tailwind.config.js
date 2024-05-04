@@ -8,7 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "homepageBackground" : "url('/public/homepage-background.svg')",
+        "homepageBackground" : "url('/homepage-background.svg')",
+        "solutionsBackground" : "url('/solutions.svg')",
+        "contactpromoBackground" : "url('/contactpromo.svg')",
       },
     },
   },

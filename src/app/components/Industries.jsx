@@ -2,7 +2,7 @@ import React from 'react'
 
 const Industries = () => {
   return (
-    <div>Industries</div>
+    <div className='bg-[#D9E2FF] w-full h-auto'>Industries</div>
   )
 }
 

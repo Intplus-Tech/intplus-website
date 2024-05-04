@@ -2,7 +2,7 @@ import React from 'react'
 
 const Values = () => {
   return (
-    <div>Values</div>
+    <div className='bg-white w-full h-auto'>Values</div>
   )
 }
 

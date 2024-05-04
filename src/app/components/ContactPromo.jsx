@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactPromo = () => {
   return (
-    <div>ContactPromo</div>
+    <div className='bg-contactpromoBackground w-full h-auto'>ContactPromo</div>
   )
 }
 

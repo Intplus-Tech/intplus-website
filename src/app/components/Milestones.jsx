@@ -2,7 +2,7 @@ import React from 'react'
 
 const Milestones = () => {
   return (
-    <div>Milestones</div>
+    <div className='bg-white w-full h-auto'>Milestones</div>
   )
 }
 
