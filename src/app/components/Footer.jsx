@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <p className={`${calistoga.variable} font-calistoga text-2xl font-medium text-[#1E1E1E] hidden lg:flex`}>int<sup className='text-base'>+</sup></p>
           </div>
-          <ul className='flex items-center gap-6 text-black font-medium'>
+          <ul className='flex items-center gap-6 text-black font-medium flex-wrap'>
             <li className='text-base'>Services</li>
             <li className='text-base'>About Us</li>
             <li className='text-base'>Career</li>
