@@ -1,14 +1,15 @@
 import React from 'react'
+import Link from 'next/link'
 
 const About = () => {
   return (
-    <div className='w-full bg-white bg-cover p-7 lg:px-20 lg:py-10' id="about">
-      <h1 className='text-3xl text-[#000000] mb-7 lg:mb-10'>About Us</h1>
+    <div className='w-full bg-white bg-cover px-7 py-12 lg:p-20 leading-[30px]' id="about">
+      <h1 className='text-4xl text-[#000000] mb-7 lg:mb-10'>About Us</h1>
       <div className='h-[2px] bg-[#00000013] w-full mb-7 lg:mb-10'></div>
       <div className='flex justify-between gap-10 h-auto w-full flex-col lg:flex-row'>
         <div className='h-auto flex flex-col justify-between lg:w-[30%] gap-7'>
           <p>We have the motivated experts you need to solve any problem. Our commitment to understanding your needs builds strong, trusting relationships – it{"'"}s why we guarantee satisfaction with every solution. </p>
-          <a href='#' className="bg-[#2D7EFF] w-fit py-4 px-5 rounded-full text-white">More about us</a>
+          <Link href='/about' className="bg-[#2D7EFF] w-fit py-4 px-5 rounded-full text-white">More about us</Link>
         </div>
         <div className="h-auto flex flex-col justify-between gap-7 lg:w-[70%]">
           <div className='flex justify-between w-full flex-col lg:flex-row gap-5'>

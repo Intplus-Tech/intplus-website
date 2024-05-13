@@ -8,8 +8,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Int+",
-  description: "Your Trusted IT Partner",
+  title: "Int+ Technology",
+  description: "Software Development Company ",
 };
 
 export default function RootLayout({ children }) {

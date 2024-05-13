@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Expertise = () => {
   return (
-    <div className='bg-[#D9E2FF] w-full h-auto p-7 lg:px-20 lg:py-10' id="expertise">
+    <div className='bg-[#D9E2FF] w-full h-auto px-7 py-12 lg:p-20 leading-[34px]' id="expertise">
       <div className='flex justify-between mb-5 lg:items-center gap-10 flex-col lg:flex-row'>
-        <h1 className='text-3xl text-[#000000] lg:mb-10 lg:w-[30%]'>Expertise</h1>
+        <h1 className='text-4xl text-[#000000] lg:mb-10 lg:w-[30%]'>Expertise</h1>
         <div className="lg:w-[70%] gap-4">
           <div className="flex justify-between w-full">
             <h4 className='lg:w-[20%]'></h4>

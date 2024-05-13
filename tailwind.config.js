@@ -8,18 +8,25 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "homepageBackground" : "url('/homepage-background.svg')",
-        "solutionsBackground" : "url('/solutions.svg')",
-        "contactpromoBackground" : "url('/contactpromo.svg')",
-        "industriesBackground" : "url('/industries.svg')",
+        "homepageBackground": "url('/homepage-background.svg')",
+        "milestonesBackground": "url('/milestone.svg')",
+        "contactpromoBackground": "url('/contactpromo.svg')",
+        "industriesBackground": "url('/industries.svg')",
+        "Background404": "url('/404.svg')",
       },
-      fontFamily:{
-        calistoga : ['var(--font-calistoga)']
-      }
-    },
-  },
-  plugins: [
-    require('tailwind-scrollbar-hide'),
-    // other plugins
-],
-};
+      fontFamily: {
+        calistoga: ['var(--font-calistoga)']
+      },
+      animation: {
+        'move-bg': 'move-bg 3s linear infinite',
+      },
+      keyframes: {
+        'move-bg': {
+          'from': { 'background-position': '0 0' },
+          'to': { 'background-position': '200% 0%' },
+        }
+      }, // Add a comma here
+    }, // Close extend object
+  }, // Close theme object
+  plugins: [], // Close plugins array
+}; // Close module.exports object

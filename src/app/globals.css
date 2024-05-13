@@ -20,5 +20,17 @@
           -ms-overflow-style: none;  /* IE and Edge */
           scrollbar-width: none;  /* Firefox */
     }
+
+    /* Add this CSS to your stylesheet */
+.glowing-border:hover {
+  box-shadow: 0 0 10px 2px rgba(128, 128, 128, 1); 
 }
+
+.button-text {
+  white-space: nowrap;
+}
+
+}
+
+
 
