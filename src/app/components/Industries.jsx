@@ -20,7 +20,7 @@ const Industries = () => {
         <p className='text-[#000000]'>As a versatile service provider, we cater to diverse industries, offering tailored solutions to meet specific needs. We ensure success across varied business landscapes with comprehensive and adaptable solutions.</p>
         <a href='#' className="bg-[#2D7EFF] w-fit py-3 px-6 rounded-full text-white">All Cases</a>
       </div>
-      <div className="w-full lg:w-[45%]  z-10 bg-green-400">
+      <div className="w-full lg:w-[45%] z-10 ">
         <Slider />
       </div>
     </div>
