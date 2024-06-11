@@ -13,6 +13,7 @@ module.exports = {
         "contactpromoBackground": "url('/contactpromo.svg')",
         "industriesBackground": "url('/industries.svg')",
         "Background404": "url('/404.svg')",
+        "servicesBackground" : "url('/servicesBackground.svg')"
       },
       fontFamily: {
         calistoga: ['var(--font-calistoga)']
@@ -25,8 +26,8 @@ module.exports = {
           'from': { 'background-position': '0 0' },
           'to': { 'background-position': '200% 0%' },
         }
-      }, // Add a comma here
-    }, // Close extend object
-  }, // Close theme object
-  plugins: [], // Close plugins array
-}; // Close module.exports object
+      }, 
+    },
+  },
+  plugins: [],
+};
