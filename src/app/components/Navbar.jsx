@@ -29,7 +29,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className='flex justify-between items-center mb-16 '>
+        <nav className='flex justify-between items-center mb-16'>
             <div className='flex gap-1 items-center'>
                 <div
                     className={`${calistoga.variable} font-calistoga bg-white w-auto flex py-[2px] px-3 rounded-[1px]`}
