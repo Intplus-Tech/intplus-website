@@ -11,26 +11,40 @@
     text-wrap: balance;
   }
 
-        /* Hide scrollbar for Chrome, Safari and Opera */
-        .no-scrollbar::-webkit-scrollbar {
-          display: none;
-      }
-     /* Hide scrollbar for IE, Edge and Firefox */
-      .no-scrollbar {
-          -ms-overflow-style: none;  /* IE and Edge */
-          scrollbar-width: none;  /* Firefox */
-    }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 
-    /* Add this CSS to your stylesheet */
-.glowing-border:hover {
-  box-shadow: 0 0 10px 2px rgba(128, 128, 128, 1); 
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  /* Add this CSS to your stylesheet */
+  .glowing-border:hover {
+    box-shadow: 0 0 10px 2px rgba(128, 128, 128, 1);
+  }
+
+  .button-text {
+    white-space: nowrap;
+  }
+
+  .blue-button {
+    background-color: #2D7EFF;
+    color: white;
+    border-radius: 5px;
+    padding: 14px 25px 14px 25px;
+    font-size: 16px;
+  }
+
+  .gradient-text {
+    background: linear-gradient(225deg, #2D7EFF 0%, #57007B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
 }
-
-.button-text {
-  white-space: nowrap;
-}
-
-}
-
-
-

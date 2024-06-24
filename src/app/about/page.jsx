@@ -7,10 +7,10 @@ const About = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-between overflow-x-hidden relative">
         <Header/>
-        <div className="bg-white w-full h-auto p-7 lg:px-20 lg:pb-7 lg:pt-10 text-[#333333]">
-        <p className="uppercase text-[24px] tracking-wider font-medium">GET IN TOUCH</p>
-        <p className="text-[16px] w-[70%] mt-4">We value your interest in Int+. If you have inquiries or ideas you'd like to share, don't hesitate to contact us at carrers@intplus.co. </p>
-        <p className='text-[16px] mt-5'>Let's start a conversation about how we can work together.</p>
+        <div className="bg-[#F9F9FF] w-full h-auto p-7 lg:px-20 lg:py-10 text-[#333333] flex flex-col items-center text-center">
+        <p className="text-[30px] tracking-wider font-semibold text-[#1A202C]">About who we are</p>
+        <p className="text-[16px] w-[70%] mt-4 text-[#2D3748]">Int+ provides tailored software solutions and services that empower businesses to grow and meet the challenges of tomorrow. We are a team that view solution from a global perspective and a proven track record in creating and accelerating innovations for companies for industries.</p>
+        <p className='text-[16px] mt-7 w-[80%]'>Bringing together a solution driven engineering team and industry expertise we help businesses navigate the technology maze in Real Estate, Fintech, Utilities, IT, Logistics, E-Commerce & Retail, Oil & Gas and others.</p>
         </div>
         <CoreValues/>
         <ContactForm/>

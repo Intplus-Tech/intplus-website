@@ -25,7 +25,6 @@ const Navbar = () => {
         { name: 'About Us', href: '/about' },
         { name: 'Services', href: '/services' },
         { name: 'Career', href: '/career' },
-        { name: 'Contact', href: '/contacts' },
     ];
 
     return (
@@ -36,7 +35,7 @@ const Navbar = () => {
                 >
                     <p className='text-xl font-medium text-[#1E1E1E]'>int<sup className='text-base'>+</sup></p>
                 </div>
-                <p className='text-white text-lg'>Technology</p>
+                <p className='text-white text-lg font-semibold'>Technology</p>
             </div>
             <Image
                 className={`lg:hidden ${navClicked ? 'hidden' : ''}`}
@@ -59,13 +58,14 @@ const Navbar = () => {
                     {navItems.map((item) => (
                         <li key={item.href}>
                             <Link href={item.href} className={`${pathname === item.href
-                                ? 'text-white font-semibold'
+                                ? 'text-white font-bold'
                                 : 'text-white hover:text-white'
                                 }`}>
                                 {item.name}
                             </Link>
                         </li>
                     ))}
+                 <Link href="/contacts" className='blue-button cursor-pointer'>Contact Us</Link>
                 </ul>
             </div>
         </nav>
