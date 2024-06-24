@@ -54,18 +54,18 @@ const Navbar = () => {
                     height={15}
                     onClick={toggleNavClicked}
                 />
-                <ul className='font-normal text-2xl lg:text-lg flex flex-col lg:flex-row lg:items-center lg:justify-between lg:text-white gap-10 mt-10 lg:mt-0'>
+                <ul className='font-normal text-2xl lg:text-lg flex flex-col lg:flex-row lg:items-center lg:justify-between gap-10 mt-10 lg:mt-0'>
                     {navItems.map((item) => (
                         <li key={item.href}>
                             <Link href={item.href} className={`${pathname === item.href
-                                ? 'text-white font-bold'
-                                : 'text-white hover:text-white'
+                                ? 'text-[#16205F] lg:text-white font-bold'
+                                : 'text-[#16205F] lg:text-white hover:text-white'
                                 }`}>
                                 {item.name}
                             </Link>
                         </li>
                     ))}
-                 <Link href="/contacts" className='blue-button cursor-pointer'>Contact Us</Link>
+                 <Link href="/contacts" className='blue-button cursor-pointer w-fit'>Contact Us</Link>
                 </ul>
             </div>
         </nav>
