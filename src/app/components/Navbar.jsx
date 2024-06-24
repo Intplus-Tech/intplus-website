@@ -59,7 +59,7 @@ const Navbar = () => {
                         <li key={item.href}>
                             <Link href={item.href} className={`${pathname === item.href
                                 ? 'text-[#16205F] lg:text-white font-bold'
-                                : 'text-[#16205F] lg:text-white hover:text-white'
+                                : 'text-[#16205F] lg:text-white'
                                 }`}>
                                 {item.name}
                             </Link>
