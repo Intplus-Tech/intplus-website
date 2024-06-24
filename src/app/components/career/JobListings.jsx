@@ -47,7 +47,7 @@ const JobListings = () => {
   ];
 
   return (
-    <div className="w-full h-auto flex flex-col gap-[50px] p-7 lg:px-20 lg:pb-10">
+    <div className="w-full h-auto flex flex-col gap-[50px] p-7 lg:px-20 lg:pb-10 bg-[#F9F9FF]">
       {
         jobs.map((job) => (
           <div key={job.category} className="w-full h-auto">

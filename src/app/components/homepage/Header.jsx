@@ -19,7 +19,7 @@ const Header = () => {
         <h1 className='text-white text-4xl md:text-5xl font-medium max-w-[600px] tracking-wide md:leading-[70px]'>Great Products are built by great teams</h1>
           <p className="text-white text-lg font-light tracking-wider max-w-[500px]">We help build and manage a team of world-class developers to bring your vision to life</p>
         <Link href='/contacts' className='blue-button mt-[20px] '>
-          Let{"'"}s get started
+          Let&apos;s get started
         </Link>
 
     / </div>

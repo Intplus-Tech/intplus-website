@@ -20,7 +20,7 @@ const ServiceList = () => {
         { name: "Enterprise Software Development", description: "We have expertise in enterprise software development, API integration, modernizing legacy systems, and consolidating app portfolios. We re-engineering solutions of different complexity to become a lasting success.", icon: Enterprise },
     ]
     return (
-        <div className='flex flex-wrap w-full justify-between gap-y-[50px] gap-x-[40px] bg-white p-7 lg:px-20 h-auto'>
+        <div className='flex flex-wrap w-full justify-between gap-y-[50px] gap-x-[40px] bg-[#F9F9FF] p-7 lg:px-20 h-auto'>
             {services.map((service) => (
                 <div key={service.name} className="max-w-[470px] bg-gradient-to-r from-[#2D7EFF] to-[#57007B] rounded-[5px] items-center p-[2px] overflow-hidden">
                     <div className='bg-white text-[#16205F] flex flex-col lg:flex-row gap-[20px] h-full p-7 rounded-[2px]'>

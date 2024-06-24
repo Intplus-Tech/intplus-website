@@ -6,7 +6,7 @@ const Header = () => {
             <Navbar />
             <div className='w-full h-auto flex flex-col gap-[75px] lg:gap-4 md:items-center md:text-center md:pt-20 text-white'>
                 <p className="font-light max-w-[600px] text-4xl md:text-5xl md:leading-[70px]">Empowering<span className='font-bold'> Businesses Through Scalable Technology</span></p>
-                <p className='font-normal text-[16px] max-w-[700px]'>We don't just build software, we build your future. We craft innovative and scalable technology solutions that empower your business to thrive in the digital age.</p>
+                <p className='font-normal text-[16px] max-w-[700px]'>We don&apos;t just build software, we build your future. We craft innovative and scalable technology solutions that empower your business to thrive in the digital age.</p>
             </div>
         </div>
     );

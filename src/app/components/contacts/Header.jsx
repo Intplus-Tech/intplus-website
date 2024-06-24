@@ -6,8 +6,8 @@ const Header = () => {
             <Navbar />
             <div className='w-full h-auto flex flex-col gap-[75px] lg:gap-4 md:items-center md:text-center md:pt-20 text-white'>
                 <p className="font-light max-w-[600px] text-4xl md:text-5xl tracking-wide md:leading-[70px]">Connect & <span className='font-bold'>Collaborate :
-                We’re here to help</span></p>
-                <p className='font-normal text-[16px] max-w-[500px]'>Communication is key. We believe in building strong partnerships with our clients. Whether you have a question, a new project, or just need some guidance, we're here to collaborate and help you achieve your goals.</p>
+                We&apos;re here to help</span></p>
+                <p className='font-normal text-[16px] max-w-[500px]'>Communication is key. We believe in building strong partnerships with our clients. Whether you have a question, a new project, or just need some guidance, we&spos;re here to collaborate and help you achieve your goals.</p>
             </div>
         </div>
     );
