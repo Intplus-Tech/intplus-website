@@ -82,7 +82,7 @@ const JobListings = () => {
                   </div>
                   <Link href={`/${job.category}/${listing.role}`} className="flex bg-[#2D7EFF] text-white w-fit p-3 items-center gap-[10px] text-[14px] lg:mt-[30px] rounded-[7px]">
                     APPLY NOW
-                    <Image src="/arrow_foRward.svg" alt="" width={16} height={16} />
+                    <Image src="/arrow_forward.svg" alt="" width={16} height={16} />
                   </Link>
                 </div>
               ))

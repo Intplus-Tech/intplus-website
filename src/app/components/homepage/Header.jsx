@@ -13,7 +13,7 @@ const Header = () => {
 
 
   return (
-    <div className='min-h-[600px] w-screen bg-homepageBackground bg-cover p-7 lg:px-20 lg:py-10'>
+    <div className='min-h-[500px] lg:min-h-[600px] w-screen bg-homepageBackground bg-cover p-7 lg:px-20 lg:py-10'>
       <Navbar />
       <div className='w-full h-auto flex flex-col gap-5 lg:gap-4 items-center text-center md:pt-20 tracking-wide'>
         <h1 className='text-white text-3xl md:text-5xl font-light lg:max-w-[600px] tracking-wide md:leading-[70px]'>Great <span className='font-bold'>Products</span> are <span className='font-bold'>built by great teams.</span></h1>

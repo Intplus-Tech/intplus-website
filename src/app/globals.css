@@ -47,4 +47,8 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .cta-gradient{
+    background: linear-gradient(225deg, #FFC656 0%, #F16063 100%);
+  }
+
 }
