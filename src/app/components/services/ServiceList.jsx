@@ -26,7 +26,7 @@ const ServiceList = () => {
                     <div className='bg-white text-[#16205F] flex flex-col lg:flex-row gap-[20px] h-full p-7 rounded-[2px]'>
                         <div className='bg-gradient-to-r from-[#2D7EFF] to-[#57007B] rounded-full items-center p-[1px] overflow-hidden w-[60px] h-[60px]'>
                             <div className='bg-white h-full w-full rounded-full flex items-center justify-center'>
-                            <Image
+                                <Image
                                     src={service.icon}
                                     alt="service-icon"
                                     width={45}

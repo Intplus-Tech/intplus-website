@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Header from './components/homepage/Header.jsx';
-// import ServiceSlider from './components/homepage/ServiceSlider.jsx';
+import ServiceSlider from './components/homepage/ServiceSlider.jsx';
 import BuildingSection from './components/homepage/BuildingSection.jsx';
 import WorkApproach from './components/homepage/WorkApproach.jsx';
 // import DevelopmentProcess from './components/homepage/DevelopmentProcess.jsx';
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between overflow-x-hidden relative">
       <Header />
-      {/* <ServiceSlider/> */}
+      <ServiceSlider/>
       <BuildingSection/>
       <WorkApproach/>
       {/* <DevelopmentProcess/> */}

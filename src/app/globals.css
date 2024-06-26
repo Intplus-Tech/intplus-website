@@ -51,4 +51,27 @@
     background: linear-gradient(225deg, #FFC656 0%, #F16063 100%);
   }
 
+
+  .custom-swiper-pagination .swiper-pagination {
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    padding-left: 100px;
+
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet {
+    background: transparent;
+    border: 1px solid rgb(184, 182, 182);
+    opacity: 1;
+    width: 15px;
+    height: 15px;
+
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  background: linear-gradient(225deg, #2D7EFF 0%, #57007B 100%);
+  border: none;
+}
+
 }

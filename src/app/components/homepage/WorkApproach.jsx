@@ -23,7 +23,7 @@ const WorkApproach = () => {
         { name: "Quality Assurance & Testing", description: "We implement a comprehensive testing strategy throughout the development lifecycle. This ensures your software functions flawlessly and delivers a seamless user experience.", icon: QualityAssurance, background: "bg-gradient-to-r from-[#F76680] to-[#57007B]" },
     ]
     return (
-        <div className='flex flex-col items-center bg-[#F7F7FA] p-7 lg:px-20 lg:py-16 h-auto'>
+        <div className='flex flex-col items-center bg-[#F7F7FA] p-7 lg:px-20 lg:py-16 h-auto z-10'>
             <div className='bg-[#2D7EFF] h-[4px] w-[70px] mb-[10px]'></div>
             <p className='text-[#1A202C] text-3xl leading-[45px] max-w-[400px] text-center mb-[30px] lg:mb-[100px]'>Our design and <span className='font-bold'>development approach</span></p>
             <div className='flex flex-wrap w-full justify-between gap-y-[50px] gap-x-[40px] '>

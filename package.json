@@ -13,7 +13,8 @@
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "swiper": "^9.0.0",
+    "react-flickity-component": "^4.0.7",
+    "swiper": "^9.4.1",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
