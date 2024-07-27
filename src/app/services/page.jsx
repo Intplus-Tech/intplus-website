@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const Services = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between overflow-x-hidden relative">
+    <div className="flex min-h-screen flex-col items-center justify-between overflow-x-hidden relative 2xl:container 2xl:mx-auto">
       <Header />
       <div className="bg-[#F9F9FF] w-full h-auto p-7 lg:px-20 lg:py-10 text-[#333333] flex flex-col items-center text-center">
         <p className="text-[30px] tracking-wider font-semibold text-[#1A202C]">Our custom software development services</p>

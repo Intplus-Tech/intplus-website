@@ -18,7 +18,7 @@ const BuildingSection = () => {
                     </p>
                     <p className='text-[#2D3748] text-lg mt-3'>By keeping our knowledge sharp, staying up to date with relevant upcoming technology offerings and practices, we can guide you through the implementation and adoption of powerful and effective digital solutions. Int+ goes beyond helping your business leverage these new opportunities and gives you the direction needed to become a leader in your industry. </p>
                 </div>
-                <div className='lg:w-1/2 h-full overflow-hidden rounded-[5px] z-10 mb-7 lg:mb-0'>
+                <div className='lg:w-1/2 h-full overflow-hidden rounded-[5px] z-10 mb-7 lg:mb-0 w-full'>
                     <Image src={Ignite} alt='' className='w-full h-full' />
                 </div>
             </div>
@@ -30,7 +30,7 @@ const BuildingSection = () => {
                     </p>
                     <p className='text-[#2D3748] text-lg mt-3'>Int+ provides digital engineering services that enable organizations to operate, innovate and scale their business by leveraging cutting-edge technologies, top talent, and cross-industry expertise.</p>
                 </div>
-                <div className='lg:w-1/2 overflow-hidden rounded-[5px] lg:pr-[50px] mb-7 lg:mb-0'>
+                <div className='lg:w-1/2 overflow-hidden rounded-[5px] lg:pr-[50px] mb-7 lg:mb-0 w-full'>
                     <Image src={Engineering} alt='' className='w-full h-full' />
                 </div>
                 <div className='w-[30px] h-[30px] absolute left-[70%] bottom-0 rounded-full bg-gradient-to-r from-[#F76680] to-[#57007B] hidden lg:flex'></div>
@@ -42,7 +42,7 @@ const BuildingSection = () => {
                     </p>
                     <p className='text-[#2D3748] text-lg mt-3'>By keeping our knowledge sharp, staying up to date with relevant upcoming technology offerings and practices, we can guide you through the implementation and adoption of powerful and effective digital solutions. Int+ goes beyond helping your business leverage these new opportunities and gives you the direction needed to become a leader in your industry. </p>
                 </div>
-                <div className='lg:w-1/2 overflow-hidden rounded-[5px] mb-7 lg:mb-0'>
+                <div className='lg:w-1/2 overflow-hidden rounded-[5px] mb-7 lg:mb-0 w-full'>
                     <Image src={Foundation} alt='' className='w-full h-full' />
                 </div>
             </div>
