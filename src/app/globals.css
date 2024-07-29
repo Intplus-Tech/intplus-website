@@ -70,4 +70,15 @@
   background: linear-gradient(90deg, #2d7eff 0%, #57007b 100%);
 }
 
+.process-section {
+  overflow-x: auto;
+}
+
+@media (min-width: 1024px) {
+  .process-section {
+    overflow-x: visible;
+  }
+}
+
+
 }

@@ -14,7 +14,7 @@ const WorkApproach = () => {
       </p>
       <div className="flex flex-wrap w-full justify-between gap-y-[50px] gap-x-10">
         <div className="flex w-full justify-between gap-10 flex-col lg:flex-row">
-          <div className="flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
+          <div className="lg:flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
             <div className="bg-white text-[#16205F] flex flex-col lg:flex-row gap-[20px] h-full p-7 rounded-[4px]">
               <div className="h-[60px] w-[60px] rounded-[10px] flex items-center justify-center bg-gradient-to-r from-[#29272E] to-[#29272E]">
                 <Image
@@ -36,7 +36,7 @@ const WorkApproach = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
+          <div className="lg:flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
             <div className="bg-white text-[#16205F] flex flex-col lg:flex-row gap-[20px] h-full p-7 rounded-[4px]">
               <div className="h-[60px] w-[60px] rounded-[10px] flex items-center justify-center bg-gradient-to-r from-[#68DBF2] to-[#509CF5]">
                 <Image
@@ -61,7 +61,7 @@ const WorkApproach = () => {
           </div>
         </div>
         <div className="flex w-full justify-between gap-10 flex-col lg:flex-row">
-          <div className="flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
+          <div className="lg:flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
             <div className="bg-white text-[#16205F] flex flex-col lg:flex-row gap-[20px] h-full p-7 rounded-[4px]">
               <div className="h-[60px] w-[60px] rounded-[10px] flex items-center justify-center bg-gradient-to-r from-[#FF92AE] to-[#FF3D9A]">
                 <Image
@@ -83,7 +83,7 @@ const WorkApproach = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
+          <div className="lg:flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
             <div className="bg-white text-[#16205F] flex flex-col lg:flex-row gap-[20px] h-full p-7 rounded-[4px]">
               <div className="h-[60px] w-[60px] rounded-[10px] flex items-center justify-center bg-gradient-to-r from-[#67E9F1] to-[#24E795]">
                 <Image
@@ -107,7 +107,7 @@ const WorkApproach = () => {
           </div>
         </div>
         <div className="flex w-full justify-between gap-10 flex-col lg:flex-row">
-          <div className="flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
+          <div className="lg:flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
             <div className="bg-white text-[#16205F] flex flex-col lg:flex-row gap-[20px] h-full p-7 rounded-[4px]">
               <div className="h-[60px] w-[60px] rounded-[10px] flex items-center justify-center bg-gradient-to-r from-[#FFEF5E] to-[#F7936F]">
                 <Image
@@ -127,7 +127,7 @@ const WorkApproach = () => {
               </div>
             </div>
           </div>
-          <div className="flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
+          <div className="lg:flex-1 bg-[#E7DAED] rounded-[5px] items-center p-[1px] overflow-hidden">
             <div className="bg-white text-[#16205F] flex flex-col lg:flex-row gap-[20px] h-full p-7 rounded-[4px]">
               <div className="h-[60px] w-[60px] rounded-[10px] flex items-center justify-center bg-gradient-to-r from-[#F76680] to-[#57007B]">
                 <Image
